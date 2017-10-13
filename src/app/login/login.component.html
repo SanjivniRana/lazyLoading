@@ -1,0 +1,74 @@
+<div class="container">
+
+
+  <div class="row  jumbotron">
+
+    <div class="col-md-4"></div>
+
+    <div class="col-md-4">
+      <form #fLogin="ngForm" (ngSubmit)="onLogin(fLogin)" class="form-horizontal" role="form" method="POST">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+            <h4>Please Login</h4>
+            <hr>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="form-group">
+              <label class="sr-only" for="name">name</label>
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+                <input type="text" name="name" class="form-control" id="name" placeholder="name" autofocus [(ngModel)]="name">
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="form-group">
+              <label class="sr-only" for="password">Password</label>
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+                <input type="password" name="password" class="form-control" id="password" placeholder="Password" [(ngModel)]="password">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-6" style="padding-top: .35rem">
+                <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                    <input type="checkbox" id="test1" />
+                    <label for="test1" style="padding-bottom: .15rem">Remember me</label>
+                </div>
+            </div>
+             <div class="col-md-2"></div>
+        </div> -->
+        <div class="row" style="padding-top: 1rem">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+            <button  type="submit" class="btn btn-outline-primary float-right"><i class="fa fa-sign-in"></i> Login</button>
+            <!-- <a class="btn btn-link" href="/password/reset">Forgot Your Password?</a> -->
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-4"></div>
+
+  </div>
+
+
+
+
+</div>
+

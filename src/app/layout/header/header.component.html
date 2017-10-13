@@ -1,0 +1,49 @@
+<nav class="navbar  layoutheader" style="background-color: #003666">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    <a href="#" class="navbar-brand logo">Child DayCare</a>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+     
+      <li class="active"><a routerLink="/classes" class="home">Home</a></li>
+      <li><a routerLink="/classes" class="classes">Classes</a></li>
+      <li><a routerLink="/student" class="student">Student</a></li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" class="more dropdown-toggle" href="#">More <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Inbox</a></li>
+          <li><a href="#">Drafts</a></li>
+          <li><a href="#">Sent Items</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Trash</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="/login" class="login">Login</a></li>
+     
+      <li class="active"> <a class="logout" (click)="logout()">Logout</a> </li>
+   
+      <!--<li class="active"><a routerLink="/login">Logout</a></li>-->
+     
+      <!--<li><a routerLink="/register">Register</a></li>-->
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+
+
+  <!--<router-outlet></router-outlet>-->
+
+</div>

@@ -1,0 +1,8 @@
+.profile, .addStudent, .studentSchedule, .skills, .billing{
+    color:white;
+}
+
+.profile:hover, .addStudent:hover, .studentSchedule:hover, .skills:hover, .billing:hover{
+    color:#003666;
+    background-color: #b8cadb;
+}

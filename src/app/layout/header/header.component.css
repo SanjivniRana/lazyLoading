@@ -1,0 +1,9 @@
+.login, .more, .logout, .classes, .student, .home, .logo{
+    color: white;
+}
+.login:hover, .more:hover, .logout:hover, .classes:hover, .student:hover, .home:hover{
+    color: #003666;
+    background-color: #b8cadb;
+}
+
+

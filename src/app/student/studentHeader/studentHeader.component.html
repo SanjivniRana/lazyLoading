@@ -1,0 +1,36 @@
+<div class="container text-center">
+
+  <nav class="navbar" style="background-color:#003666">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" data-target="#studentHeadernavbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      <!--<a href="#" class="navbar-brand">Student Module</a> -->
+    </div>
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="studentHeadernavbarCollapse" class="collapse navbar-collapse text-center">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a class="profile" routerLink="./profile">Profile</a></li>
+        <li><a class="addStudent" routerLink="./add-student">Add Student</a></li>
+        <li><a class="studentSchedule" routerLink="/classes">Student Schedule</a></li>
+        <li><a class="skills" routerLink="/student">Skills</a></li>
+        <li><a class="billing" routerLink="/student">Billing</a></li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+</div>
+
+<div class="container">
+
+
+  <router-outlet></router-outlet>
+
+
+</div>
